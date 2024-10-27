@@ -1,0 +1,71 @@
+.pets img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pets img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* red */
+}
+ 
+body {
+    background-image: url('bg.jpg');
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    padding-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    margin-top: 40px;
+}
+
+.cta {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.cta strong {
+    display: block;
+}
+
+.pets img {
+    width: 275px;
+    height: 197px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.read-more {
+    font-size: 20px;
+    background-color: red;
+    padding: 10px 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.divider {
+    width: 60%;
+}
+
+.pets-title, .adventure-title {
+    font-size: 50px;
+}
+
+@media (max-width: 600px) {
+    .cta, a {
+        font-size: 20px;
+    }
+}
+
+
+
+
